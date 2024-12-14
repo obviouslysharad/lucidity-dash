@@ -1,0 +1,154 @@
+.main {
+  padding: 10px;
+}
+
+.bar {
+  display: flex;
+  justify-content: end;
+}
+
+.widget-main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 12px 0px 18px 0px;
+}
+
+.capital {
+  text-transform: capitalize;
+  color: #c3dc56;
+  background-color: #18191a;
+  border-radius: 18px;
+  font-weight: 700;
+}
+
+.onlyCapital {
+  text-transform: capitalize;
+}
+
+.widget-container {
+  padding: 24px;
+  flex: 1;
+  background-color: #243325;
+  border-radius: 12px;
+}
+
+.widget-value {
+  margin-top: 10px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.heading {
+  font-size: 32px;
+}
+
+.value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding: 14px 0px 14px 0px;
+}
+
+.row {
+  border-bottom: 1px solid #292b27;
+  display: flex;
+  flex-direction: row;
+}
+
+.tableContainer {
+  background-color: #212124;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #292b27;
+}
+
+.modal {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  background-color: #292b27;
+  padding: 32px;
+  border-radius: 12px;
+  width: 40%;
+  height: 30%;
+}
+
+.backdrop {
+  position: absolute;
+  opacity: 0.5;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0
+}
+
+.userBtns {
+  opacity: 0.5;
+  background-color: black;
+}
+
+.icon {
+  padding: 4px;
+  cursor: pointer;
+}
+
+.editHeading {
+  font-size: xx-large;
+  margin-bottom: 12px;
+}
+
+.editProductName {
+  font-size: large;
+  margin-bottom: 14px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.editInputContainer {
+  flex: 1 0 40%;
+}
+
+.editInput {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding: 10px;
+  background-color: #3f413d;
+  border-radius: 12px;
+  border-width: 0;
+  color: #D3D3D3;
+  outline: none;
+  width: 85%;
+}
+
+.editInput:focus {
+  outline: none;
+}
+
+.btnsContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.saveBtn {
+  border-radius: 12px;
+  background-color: #3f413d;
+  padding: 10px;
+}
+
+.baseBtn {
+  margin: 8px 8px 0px 8px;
+  color: #c3dc56;
+  background-color: none;
+  cursor: pointer;
+}
